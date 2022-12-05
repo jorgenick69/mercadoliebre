@@ -1,0 +1,181 @@
+
+:root {
+    --amarillo-header: #fff15c;
+    --gris-playholder: #666666;
+    --azul-mercado:#3483fa;
+    --azul-mercado-hover:#2968c8;
+    --gris-fondo:#ebebeb;
+    --verde-envio:#00a650;
+    --sombra: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    --gris--transparente:rgba(255, 255, 255, 0.486);
+    --blanco:#fff;
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--blanco);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+
+}
+.footer-sections{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+    
+}
+.section-footer{
+    width: calc(100% / 3.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    gap: 20px;
+}
+.section-footer-img-div{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+/* .section-footer-img-div img{
+width: 15%;
+} */
+.section-footer-description{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 20px;
+  
+}
+.section-footer-descripcion-titulo{
+    color: black;
+    font-weight: 400;
+    font-size: larger;
+}
+.section-footer-descripcion-descripcion{
+color: var(--gris-playholder);
+font-size: medium;
+}
+.section-footer-descripcion-url{
+    color: var(--azul-mercado);
+    text-decoration: none;
+}
+.section-footer-descripcion-url:hover{
+    color: var(--azul-mercado-hover);
+    text-decoration: none;
+}
+.footer-section-division{
+    color: var(--gris-playholder);
+    width: 80px;
+    transform: rotate(90deg);
+}
+.footer-division{
+    color: var(--gris-playholder);
+    width: 90%;
+}
+.footer-copyright{
+    color: var(--gris-playholder);
+}
+@media(max-width:900px){
+    footer{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: var(--blanco);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    
+    }
+    .footer-sections{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .section-footer{
+        width: calc(100% / 1.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+        gap: 20px;
+    }
+    .section-footer-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+    /* .section-footer-img-div img{
+    width: 15%;
+    } */
+    .section-footer-description{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        gap: 20px;
+      
+    }
+    .section-footer-descripcion-titulo{
+        color: black;
+        font-weight: 400;
+        font-size: larger;
+    }
+    .section-footer-descripcion-descripcion{
+    color: var(--gris-playholder);
+    font-size: medium;
+    }
+    .section-footer-descripcion-url{
+        color: var(--azul-mercado);
+        text-decoration: none;
+    }
+    .section-footer-descripcion-url:hover{
+        color: var(--azul-mercado-hover);
+        text-decoration: none;
+    }
+    .footer-section-division{
+        color: var(--gris-playholder);
+        width: 70%;
+        transform: rotate(0deg);
+    }
+    .footer-division{
+        color: var(--gris-playholder);
+        width: 90%;
+    }
+    .footer-copyright{
+        color: var(--gris-playholder);
+    }
+}
