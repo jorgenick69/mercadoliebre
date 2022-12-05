@@ -4,6 +4,7 @@
     --gris-playholder: #666666;
     --azul-mercado:#3483fa;
     --azul-mercado-hover:#2968c8;
+    --sombra: 0 1px 2px 0 rgb(0 0 0 / 20%);
 }
 
 * {
@@ -82,7 +83,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    box-shadow:var(--sombra);
 
 }
 
